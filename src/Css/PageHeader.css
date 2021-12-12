@@ -1,0 +1,17 @@
+.screen .header {
+  min-width: 64px;
+  width: 64px;
+  background-color: #1bc3d0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.screen .header a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.screen .header .logo-link {
+  padding: 18px 14px 10px;
+  border-bottom: 1px solid #48dce7;
+}

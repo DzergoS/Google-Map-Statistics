@@ -1,0 +1,41 @@
+.screen .main .main-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #4c505a;
+  padding: 22.2px;
+  border-bottom: 1px solid #dee3ec;
+  position: relative;
+  margin: 0;
+  text-transform: uppercase;
+}
+.screen .main .main-title .additional {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9ba1ad;
+}
+.screen .main .main-title .additional .case {
+  margin-right: 5px;
+}
+.screen .main .main-title .additional button {
+  margin-left: 12px;
+  width: 24px;
+  height: 24px;
+  background-color: #f7f8fa;
+  box-shadow: -4px -4px 8px #ffffff, 4px 4px 12px #dde3ec;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.screen .main .main-title .additional button:hover {
+  background-color: #f1f1f1;
+}

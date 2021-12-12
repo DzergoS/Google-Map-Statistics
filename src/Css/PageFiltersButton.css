@@ -1,0 +1,17 @@
+.screen .main .filters li.li-filters .filter-button {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #d1d7e2;
+  background: #f7f8fa;
+  box-shadow: -4px -4px 8px #ffffff, 4px 4px 12px #dde3ec;
+  border-radius: 2px;
+  margin: 0;
+  padding: 11.2px;
+  cursor: pointer;
+}
+.screen .main .filters li.li-filters .filter-button:hover {
+  background-color: #f1f1f1;
+}
+.screen .main .filters li.li-filters .filter-button img {
+  width: 100%;
+}

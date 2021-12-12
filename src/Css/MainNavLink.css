@@ -1,0 +1,20 @@
+.screen .header .main-nav a:not(.logo-link) {
+  width: 44px;
+  height: 44px;
+  padding: 13px;
+  margin: 10px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.screen .header .main-nav a:not(.logo-link):first-child {
+  margin-top: 16px;
+}
+.screen .header .main-nav a:not(.logo-link).active,
+.screen .header .main-nav a:not(.logo-link):hover {
+  background-color: #fff;
+  filter: drop-shadow(4px 4px 8px #1fa2ac) drop-shadow(-4px -4px 8px #59e5f0);
+}
+.screen .header .main-nav a:not(.logo-link).active:not(:first-child) img,
+.screen .header .main-nav a:not(.logo-link):hover:not(:first-child) img {
+  filter: invert(1);
+}

@@ -1,0 +1,9 @@
+.pop-up h3 {
+  margin: 0 10px 0 0;
+  text-transform: uppercase;
+  color: gray;
+}
+.pop-up p {
+  margin: 3px 0px 20px 0;
+  font-weight: 400;
+}

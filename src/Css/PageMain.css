@@ -1,0 +1,8 @@
+.screen .main {
+  min-width: 320px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-right: 1px solid #dee3ec;
+}

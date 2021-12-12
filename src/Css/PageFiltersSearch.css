@@ -1,0 +1,42 @@
+.screen .main .filters li.li-search {
+  margin-right: 4px;
+}
+.screen .main .filters li.li-search label {
+  display: inline-block;
+  position: relative;
+}
+.screen .main .filters li.li-search label button {
+  width: 13.34px;
+  height: 13.34px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 13.34px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.screen .main .filters li.li-search label button img {
+  width: 100%;
+}
+.screen .main .filters li.li-search label input {
+  background: #f7f8fa;
+  box-shadow: inset -3px -3px 3px #ffffff,
+    inset 3px 3px 4px rgba(121, 129, 141, 0.15);
+  border-radius: 2px;
+  padding: 9px 12px;
+  padding-right: 28px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  border: 1px solid #d1d7e2;
+  width: 171px;
+}
+.screen .main .filters li.li-search label input::placeholder {
+  color: #9ba1ad;
+}
+.screen .main .filters li.li-search label input:focus {
+  outline: 1px solid #1bc3d0;
+}
