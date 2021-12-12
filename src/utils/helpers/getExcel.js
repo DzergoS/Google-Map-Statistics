@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-syntax */
 import XLSX from "xlsx";
 
-const getExcel = () => {
+const getExcel = (func) => {
   const url = "./Coordinates.xlsx";
 
   fetch(url)
@@ -62,7 +62,7 @@ const getExcel = () => {
       });
 
       massiveMarkers.shift();
-      return massiveMarkers;
+      return func(massiveMarkers);
     });
 };
 

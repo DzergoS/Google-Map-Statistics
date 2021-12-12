@@ -35,10 +35,9 @@ const CustomMap = ({
     googleMapsApiKey: "AIzaSyCDumOjX4XyHM7f2IyunF_WmYQBoxDWSaw",
     libraries,
   });
-
   // Getting Data from Excel
   useEffect(() => {
-    setMarkers(getExcel);
+    getExcel(setMarkers);
   }, [setMarkers]);
 
   const mapRef = React.useRef();

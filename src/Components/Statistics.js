@@ -1,5 +1,6 @@
 /* eslint-disable no-param-reassign */
 import * as React from "react";
+import { PropTypes } from "prop-types";
 import { VictoryPie } from "victory";
 import MarkerTable from "./MarkerTable";
 import "../Css/Statistics.css";
@@ -43,6 +44,16 @@ const Statistics = ({ markers, historyMarkers }) => {
       <MarkerTable markers={markers} title="Markers" />
     </div>
   );
+};
+
+Statistics.defaultProps = {
+  markers: [],
+  historyMarkers: [],
+};
+
+Statistics.propTypes = {
+  markers: PropTypes.instanceOf(Array),
+  historyMarkers: PropTypes.instanceOf(Array),
 };
 
 export default Statistics;
