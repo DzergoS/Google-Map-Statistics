@@ -38,7 +38,7 @@ const CustomMap = ({
 
   // Getting Data from Excel
   useEffect(() => {
-    getExcel(setMarkers);
+    setMarkers(getExcel);
   }, [setMarkers]);
 
   const mapRef = React.useRef();
